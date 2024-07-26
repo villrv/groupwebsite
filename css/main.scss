@@ -50,3 +50,72 @@ figcaption {
   margin-bottom: 20px;
   margin-top: 20px;
 }
+
+img[src*='#left'] {
+    float: left;
+    padding: 10px;
+}
+img[src*='#right'] {
+    float: right;
+    padding: 10px;
+}
+img[src*='#center'] {
+    display: block;
+    margin: auto;
+    padding: 10px;
+
+}
+
+/* Add this to your CSS file */
+.banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+h4 {
+    color: crimson;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: crimson;
+}
+
+.lab-description {
+    margin-top: 20px;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.nopadding {
+    padding: 0;
+}
+
+.mt-4 {
+    margin-top: 1.5rem;
+}
+
+.team-member {
+    margin-bottom: 20px;
+}
+
+.team-member img {
+    border: 2px solid crimson;
+}
+
+h2 {
+    color: crimson;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
+}
+
+.table th, .table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}

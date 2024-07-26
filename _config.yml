@@ -1,23 +1,15 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-title: Research Lab
-email: your-email@domain.com
+title: Villar Time-domain Astronomy Data Lab
+email: ashleyvillar@cfa.harvard.edu
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Villar Time-domain Astronomy Data Lab research website
 baseurl: ""
 url: ""
 
 include:
   - .htaccess
   - _pages
+  - _members
 
 sass:
   sass_dir: _sass
@@ -28,6 +20,10 @@ highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
+
+collections:
+  members:
+    output: true
 
 # Markdown Processing
 kramdown:
@@ -40,4 +36,3 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
   parse_block_html: true # default for kramdown is false. This will enable using Markdown links
-

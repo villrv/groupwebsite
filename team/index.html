@@ -1,0 +1,102 @@
+---
+title: "Team"
+layout: default
+excerpt: "Team members"
+sitemap: false
+permalink: /team/
+---
+
+<h1>{{ page.title }}</h1>
+
+<!-- PI -->
+<h2>Principal Investigator</h2>
+{% assign pi = site.members | where: "category", "pi" %}
+{% if pi.size > 0 %}
+    {% for member in pi %}
+    <div class="team-member">
+        <div class="row">
+            <div class="col-md-2">
+                <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}" class="img-thumbnail" style="border: 2px solid crimson; max-width: 100px;" />
+            </div>
+            <div class="col-md-10">
+                <h4>{{ member.name }}</h4>
+                <p>{{ member.research }}</p>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+{% else %}
+    <p>No PI members found.</p>
+{% endif %}
+
+<!-- Postdoctoral Fellows -->
+<h2>Postdoctoral Fellows</h2>
+{% assign postdocs = site.members | where: "category", "postdoc" %}
+{% for member in postdocs %}
+<div class="team-member">
+    <div class="row">
+        <div class="col-md-2">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}" class="img-thumbnail" style="border: 2px solid crimson; max-width: 100px;" />
+        </div>
+        <div class="col-md-10">
+            <h4>{{ member.name }}</h4>
+            <p>{{ member.research }}</p>
+        </div>
+    </div>
+</div>
+{% endfor %}
+
+<!-- Graduate Students -->
+<h2>Graduate Students</h2>
+{% assign gradstudents = site.members | where: "category", "gradstudent" %}
+{% for member in gradstudents %}
+<div class="team-member">
+    <div class="row">
+        <div class="col-md-2">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}" class="img-thumbnail" style="border: 2px solid crimson; max-width: 100px;" />
+        </div>
+        <div class="col-md-10">
+            <h4>{{ member.name }}</h4>
+            <p>{{ member.research }}</p>
+        </div>
+    </div>
+</div>
+{% endfor %}
+
+<!-- Undergraduate Students -->
+<h2>Undergraduate Students</h2>
+{% assign undergrads = site.members | where: "category", "undergrad" %}
+{% for member in undergrads %}
+<div class="team-member">
+    <div class="row">
+        <div class="col-md-2">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}" class="img-thumbnail" style="border: 2px solid crimson; max-width: 100px;" />
+        </div>
+        <div class="col-md-10">
+            <h4>{{ member.name }}</h4>
+            <p>{{ member.research}}</p>
+        </div>
+    </div>
+</div>
+{% endfor %}
+
+
+<!-- Former Members 
+<h2>Former Members</h2>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Dates Active</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% assign formers = site.members | where: "category", "former" %}
+        {% for member in formers %}
+        <tr>
+            <td>{{ member.name }}</td>
+            <td>{{ member.dates_active }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table> -->

@@ -16,7 +16,7 @@ permalink: /join/
 
 *Prospective students*: Our group is actively recruiting new graduate students. Please apply directly to the Astronomy PhD [program](https://astronomy.fas.harvard.edu/admissions). Please do not reach out to Dr. Villar directly -- she gets too many emails!
 
-*Current students*: If you are a current student at Harvard or affiliated with [IAIFI[(https://iaifi.org/), please feel free reach out to Dr. Villar 
+*Current students*: If you are a current student at Harvard or affiliated with [IAIFI](https://iaifi.org/), please feel free reach out to Dr. Villar 
 
 ### Postdoctoral Fellows
 

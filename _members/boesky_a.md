@@ -1,6 +1,6 @@
 ---
 name: "Adam Boesky"
 category: "undergrad"
-image: "na.png"
+image: "boeskya.png"
 research: "Junior thesis student."
 ---

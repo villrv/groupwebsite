@@ -1,9 +1,9 @@
----
+News pae---
 title: "News"
 layout: default
-excerpt: "News"
+excerpt: "RT2 Lab at Institut Curie"
 sitemap: false
-permalink: /news/
+permalink: /news.html
 ---
 <h1>{{page.title}}</h1>
 

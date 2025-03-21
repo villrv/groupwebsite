@@ -1,6 +1,6 @@
 ---
 name: "Dr. Conor Ransome"
 category: "postdoc"
-image: "na.png"
+image: "ransomec.png"
 research: "Dr. Ransome studies the progenitors of interacting (Type IIn) supernovae."
 ---

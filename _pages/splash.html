@@ -1,17 +1,79 @@
 
     <html>
         <head>
-            <title>SPLASH Classification Results for today...</title>
+            <title>SPLASH Classification Results for 2024-09-20</title>
+            <style>
+                body {
+                    background-color: #0d0d0d;
+                    color: #e6e6e6;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    margin: 0;
+                    padding: 20px;
+                }
+                h1 {
+                    text-align: center;
+                    color: #3388ff;
+                    font-size: 2.5em;
+                    margin-bottom: 30px;
+                }
+                table {
+                    width: 100%;
+                    border-collapse: collapse;
+                    margin-top: 20px;
+                    box-shadow: 0 0 10px rgba(0, 204, 255, 0.5);
+                }
+                th, td {
+                    padding: 12px;
+                    text-align: center;
+                }
+                th {
+                    background-color: #1a1a1a;
+                    color: #3388ff;
+                    font-size: 1.2em;
+                    text-transform: uppercase;
+                }
+                td {
+                    background-color: #262626;
+                    border-bottom: 1px solid #333;
+                }
+                tr:hover {
+                    background-color: #333;
+                    transition: background-color 0.3s;
+                }
+                a {
+                    color: #3388ff;
+                    text-decoration: none;
+                }
+                a:hover {
+                    text-decoration: underline;
+                }
+                img {
+                    border-radius: 10px;
+                    transition: transform 0.3s;
+                }
+                img:hover {
+                    transform: scale(1.1);
+                }
+            </style>
         </head>
         <body>
             <h1>Supernova Classification Results</h1>
-            <table border="1">
+            <table>
                 <tr>
                     <th>Supernova Name</th>
-                    <th>Class</th>
+                    <th>SPLASH Class Prediction</th>
+                    <th>Ia Probability</th>
+                    <th>Mass</th>
+                    <th>SFR</th>
+                    <th>Redshift</th>
+                    <th>Host Galaxy Image</th>
                 </tr>
-                <tr><td>ZTF24aaosrdt</td><td>N/A</td></tr>
+                <tr><td><a href="https://alerce.online/object/ZTF24abietks">AT2024vry</a></td><td>Ia</td><td>0.744</td><td>8.11 ± 0.03</td><td>-0.55 ± 0.02</td><td>0.46 ± 0.01</td><td><img src="https://ps1images.stsci.edu/cgi-bin/fitscut.cgi?ra=311.5441874999999&dec=23.13222222222222&size=240&format=jpg&red=/rings.v3.skycell/1837/077/rings.v3.skycell.1837.077.stk.y.unconv.fits&green=/rings.v3.skycell/1837/077/rings.v3.skycell.1837.077.stk.i.unconv.fits&blue=/rings.v3.skycell/1837/077/rings.v3.skycell.1837.077.stk.g.unconv.fits" width="100" height="100"></td></tr><tr><td><a href="https://alerce.online/object/ZTF24abibcib">AT2024vpx</a></td><td>Ia</td><td>0.701</td><td>8.25 ± 0.00</td><td>-0.45 ± 0.00</td><td>0.50 ± 0.00</td><td><img src="https://ps1images.stsci.edu/cgi-bin/fitscut.cgi?ra=69.54947083333332&dec=8.912061111111111&size=240&format=jpg&red=/rings.v3.skycell/1518/023/rings.v3.skycell.1518.023.stk.y.unconv.fits&green=/rings.v3.skycell/1518/023/rings.v3.skycell.1518.023.stk.i.unconv.fits&blue=/rings.v3.skycell/1518/023/rings.v3.skycell.1518.023.stk.g.unconv.fits" width="100" height="100"></td></tr>
             </table>
+            <footer>
+                <p>SPLASH Version: 2.0.1</p>
+                <p><a href="https://github.com/Adam-Boesky/astro_SPLASH">SPLASH GitHub</a></p>
+            </footer>
         </body>
     </html>
     

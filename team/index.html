@@ -65,8 +65,22 @@ permalink: /team/
 
 <!-- Undergraduate Students -->
 <h2>Undergraduate Students</h2>
-{% assign undergrads = site.members | where: "category", "undergrad" %}
-{% for member in undergrads %}
+<div class="row">
+    <div class="col-md-12">
+        <ul class="list-unstyled">
+            <li><strong>David Cao</strong> (Harvard)</li>
+            <li><strong>Joaquin de Castro</strong> (Harvard)</li>
+            <li><strong>Zion Smith</strong> (North Carolina A&T State University)</li>
+            <li><strong>Allison Snyder</strong> (Mount Holyoke College)</li>
+            <li><strong>Charis Graham</strong> (Carnegie Mellon University)</li>
+        </ul>
+    </div>
+</div>
+
+<!-- Lab Mascot -->
+<h2>Lab Mascot</h2>
+{% assign mascots = site.members | where: "category", "mascot" %}
+{% for member in mascots %}
 <div class="team-member">
     <div class="row">
         <div class="col-md-2">
@@ -74,29 +88,24 @@ permalink: /team/
         </div>
         <div class="col-md-10">
             <h4>{{ member.name }}</h4>
-            <p>{{ member.research}}</p>
+            <p>{{ member.research }}</p>
         </div>
     </div>
 </div>
 {% endfor %}
 
-
-<!-- Former Members 
-<h2>Former Members</h2>
-<table class="table table-striped">
-    <thead>
-        <tr>
-            <th>Name</th>
-            <th>Dates Active</th>
-        </tr>
-    </thead>
-    <tbody>
-        {% assign formers = site.members | where: "category", "former" %}
-        {% for member in formers %}
-        <tr>
-            <td>{{ member.name }}</td>
-            <td>{{ member.dates_active }}</td>
-        </tr>
-        {% endfor %}
-    </tbody>
-</table> -->
+<!-- Alumni -->
+<h2>Alumni</h2>
+<div class="row">
+    <div class="col-md-12">
+        <p>We are grateful for the contributions of our former lab members:</p>
+        <ul class="list-unstyled">
+            <li><strong>Adam Boesky</strong></li>
+            <li><strong>Callie Garcia</strong></li>
+            <li><strong>Christine Gyure</strong></li>
+            <li><strong>Mohammed Sakib</strong></li>
+            <li><strong>Prajna Nair</strong></li>
+            <li><strong>Sebastian Attlan</strong></li>
+        </ul>
+    </div>
+</div>

@@ -1,5 +1,49 @@
+- date: 06/23/25
+  title: "New paper on Type IIn supernovae published"
+  tags:
+    - research
+    - publications
+  content: "Our new paper on a large sample of Type IIn supernovae was published in The Astrophysical Journal. <a href=\"https://iopscience.iop.org/article/10.3847/1538-4357/adce03/meta\" target=\"_blank\">Read the paper here</a>."
+
+- date: 02/19/25
+  title: "Dr. Ashley Villar awarded Cottrell Scholarship"
+  tags:
+    - awards
+    - team
+  content: "Dr. Ashley Villar has been awarded a prestigious Cottrell Scholarship from the Research Corporation for Science Advancement. <a href=\"https://astronomy.fas.harvard.edu/news/professor-ashley-villar-awarded-prestigious-cottrell-scholarship\" target=\"_blank\">Read more here</a>."
+
+- date: 12/30/24
+  title: "New paper on Type II supernova precursors published"
+  tags:
+    - research
+    - publications
+  content: "Our new paper on understanding the rate of precursors for Type II (H-rich) supernovae in LSST was published in The Astrophysical Journal. <a href=\"https://iopscience.iop.org/article/10.3847/1538-4357/ad9748/meta\" target=\"_blank\">Read the paper here</a>."
+
+- date: 12/19/24
+  title: "First multi-modal foundation model for supernovae published"
+  tags:
+    - research
+    - publications
+    - machine-learning
+  content: "Our paper presenting the first multi-modal foundation model for supernovae was published in Machine Learning: Science and Technology. <a href=\"https://iopscience.iop.org/article/10.1088/2632-2153/ad990d/meta\" target=\"_blank\">Read the paper here</a>."
+
+- date: 12/11/24
+  title: "New paper on host galaxy classification of supernovae published"
+  tags:
+    - research
+    - publications
+    - machine-learning
+  content: "Our new paper on utilizing host galaxies to better classify supernovae was published in The Astrophysical Journal Supplement Series. <a href=\"https://iopscience.iop.org/article/10.3847/1538-4365/ad8a5b/meta\" target=\"_blank\">Read the paper here</a>."
+
+- date: 10/21/24
+  title: "Dr. Ashley Villar awarded Packard Fellowship"
+  tags:
+    - awards
+    - team
+  content: "Dr. Ashley Villar has been awarded a 2024 Packard Fellowship for Science and Engineering. <a href=\"https://hco.cfa.harvard.edu/2024/10/21/astronomy-professor-ashley-villar-wins-packard-fellowship/\" target=\"_blank\">Read more here</a>."
+
 - date: 01/23/24
   title: "New website!"
   tags:
     - team
-  content: We have a new group website!
+  content: "We have a new group website!"

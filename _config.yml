@@ -16,6 +16,11 @@ include:
 sass:
   sass_dir: _sass
 
+keep_files:
+  - internal-observing-data
+  - internal-observing-data/**/*
+
+
 # Conversion
 markdown: kramdown
 highlighter: rouge

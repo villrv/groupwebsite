@@ -1,0 +1,19 @@
+current directory: /Users/victoriavillar/Dropbox/Professional/research-lab-website/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/Users/victoriavillar/.rbenv/versions/3.2.4/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/victoriavillar/Dropbox/Professional/research-lab-website/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20250822-83081-ovpht5 sitelibdir\=./.gem.20250822-83081-ovpht5 clean
+
+current directory: /Users/victoriavillar/Dropbox/Professional/research-lab-website/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20250822-83081-ovpht5 sitelibdir\=./.gem.20250822-83081-ovpht5
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.bundle
+
+current directory: /Users/victoriavillar/Dropbox/Professional/research-lab-website/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20250822-83081-ovpht5 sitelibdir\=./.gem.20250822-83081-ovpht5 install
+/usr/bin/install -c -m 0755 fastfilereaderext.bundle ./.gem.20250822-83081-ovpht5
+
+current directory: /Users/victoriavillar/Dropbox/Professional/research-lab-website/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20250822-83081-ovpht5 sitelibdir\=./.gem.20250822-83081-ovpht5 clean

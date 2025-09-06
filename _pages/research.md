@@ -25,6 +25,9 @@ Our team develops novel methodologies to:
 
  Some relevant papers from our group:
 
+- Song et al. (2025), [A Poisson Process AutoDecoder for X-Ray Sources](https://iopscience.iop.org/article/10.3847/1538-4357/add72e/meta)
+- Zhang, Helfer et al. (2024), [Maven: a multimodal foundation model for supernova science](https://iopscience.iop.org/article/10.1088/2632-2153/ad990d/meta)
+- de Soto et al. (2024) [Superphot+ Real-time Fitting and Classification of Supernova Light Curve](https://iopscience.iop.org/article/10.3847/1538-4357/ad6a4f/meta)
 - Wang et al. (2023), [SBI++: Flexible, Ultra-fast Likelihood-free Inference Customized for Astronomical Applications
 ](https://iopscience.iop.org/article/10.3847/2041-8213/ace361/meta)
 - Chan et al. (2022), [Searching for Anomalies in the ZTF Catalog of Periodic Variable Stars](https://iopscience.iop.org/article/10.3847/1538-4357/ac69d4/meta)
@@ -46,14 +49,16 @@ We are members of the [Young Supernova Experiment](https://yse.ucsc.edu/) (YSE),
 
  Some relevant papers from our group:
 
-- Ransome et al. (2023), [SN2023ixf in Messier 101: the twilight years of the progenitor as seen by Pan-STARRS
-](https://arxiv.org/abs/2312.04426)
- - Yadavalli et al. (2023), [SN 2022oqm: A Multi-peaked Calcium-rich Transient from a White Dwarf Binary Progenitor System
-](https://arxiv.org/abs/2308.12991)
+- Gagliano et al. (2025), [Merger-driven supernova flagged by AI anomaly detection (ApJ)](https://iopscience.iop.org/article/10.3847/1538-4357/adea38/meta)
+- Ransome et al. (2025), [Unveiling the Diversity of Type IIn Supernovae via Systematic Light-curve Modeling](https://iopscience.iop.org/article/10.3847/1538-4357/adce03/meta)
+- Ransome et al. (2023), [SN2023ixf in Messier 101: the twilight years of the progenitor as seen by Pan-STARRS](https://arxiv.org/abs/2312.04426)
+ - Yadavalli et al. (2023), [SN 2022oqm: A Multi-peaked Calcium-rich Transient from a White Dwarf Binary Progenitor System](https://arxiv.org/abs/2308.12991)
 - Aleo et al. (2023) [The Young Supernova Experiment Data Release 1 (YSE DR1): Light Curves and Photometric Classification of 1975 Supernovae
 ](https://iopscience.iop.org/article/10.3847/1538-4365/acbfba/meta)
 - Villar et al. (2018) [Spitzer Space Telescope Infrared Observations of the Binary Neutron Star Merger GW170817](https://iopscience.iop.org/article/10.3847/2041-8213/aad281/meta)
 - Villar et al. (2016) [The intermediate luminosity optical transient sn 2010da: The progenitor, eruption, and aftermath of a peculiar supergiant high-mass x-ray binary](https://iopscience.iop.org/article/10.3847/0004-637X/830/1/11/meta)
+
+
 
 
 ## Multimessenger Astrophysics and the Origin of Heavy Elements
@@ -70,7 +75,7 @@ The heaviest elements in our universe (i.e., those arising from the rapid neutro
 
  Some relevant papers from our group:
 - Blanchard et al. (2023) [JWST Observations of the Extraordinary GRB 221009A Reveal an Ordinary Supernova Without Signs of r-Process Enrichment in a Low-Metallicity Galaxy](https://arxiv.org/abs/2308.14197)
-- Ristic et al. (2023) [Interpolated kilonova spectra models: Examining the effects of a phenomenological, blue component in the fitting of AT2017gfo spectra
+- Ristic et al. (2023) [Interpolated kilonova spectra models: Examining the effects of a phenomenological, blue component in the fitting of AT2017gfo spectra](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.5.043106)
 - Villar et al. (2018) [Spitzer Space Telescope Infrared Observations of the Binary Neutron Star Merger GW170817](https://iopscience.iop.org/article/10.3847/2041-8213/aad281/meta)
 - Villar et al. (2017) [The Combined Ultraviolet, Optical, and Near-infrared Light Curves of the Kilonova Associated with the Binary Neutron Star Merger GW170817: Unified Data Set, Analytic Models, and Physical Implications](https://iopscience.iop.org/article/10.3847/2041-8213/aa9c84/meta)
 
@@ -83,3 +88,5 @@ Our group produces a number of open-source tools and new, analytical models to u
 - [LIGHETR](https://github.com/VTDA-Group/LIGHETR_Alert_System0) -- alert system for gravitational waves
 - [extrabol](https://github.com/villrv/extrabol) -- method to estimate the bolometric light curves of thermal transients
 - [MOSFiT](https://github.com/guillochon/MOSFiT) -- an inference/modelling package for extragalactic transients
+- [SLIDE](https://github.com/yizedong/SLIDE/tree/main) -- difference imaging for LSST using DECam templates (RSP)
+- [reLAISS](https://iopscience.iop.org/article/10.3847/2515-5172/adef56/meta) -- representation learning for astronomical images and spectra

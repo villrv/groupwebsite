@@ -1,0 +1,16 @@
+current directory: /Users/ashley/Dropbox/Professional/research-lab-website/vendor/bundle/ruby/3.1.0/gems/unf_ext-0.0.9.1/ext/unf_ext
+/Users/ashley/.rubies/ruby-3.1.3/bin/ruby -I /Users/ashley/.rubies/ruby-3.1.3/lib/ruby/3.1.0 extconf.rb
+checking for -lstdc++... yes
+creating Makefile
+
+current directory: /Users/ashley/Dropbox/Professional/research-lab-website/vendor/bundle/ruby/3.1.0/gems/unf_ext-0.0.9.1/ext/unf_ext
+make DESTDIR\= sitearchdir\=./.gem.20250905-41964-p6pw02 sitelibdir\=./.gem.20250905-41964-p6pw02 clean
+
+current directory: /Users/ashley/Dropbox/Professional/research-lab-website/vendor/bundle/ruby/3.1.0/gems/unf_ext-0.0.9.1/ext/unf_ext
+make DESTDIR\= sitearchdir\=./.gem.20250905-41964-p6pw02 sitelibdir\=./.gem.20250905-41964-p6pw02
+compiling unf.cc
+linking shared-object unf_ext.bundle
+
+current directory: /Users/ashley/Dropbox/Professional/research-lab-website/vendor/bundle/ruby/3.1.0/gems/unf_ext-0.0.9.1/ext/unf_ext
+make DESTDIR\= sitearchdir\=./.gem.20250905-41964-p6pw02 sitelibdir\=./.gem.20250905-41964-p6pw02 install
+/usr/bin/install -c -m 0755 unf_ext.bundle ./.gem.20250905-41964-p6pw02
